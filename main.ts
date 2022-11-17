@@ -12,7 +12,7 @@ basic.forever(function () {
     x += dx
     for (let index = 0; index < 5; index++) {
         for (let index = 0; index <= 4; index++) {
-            led.plotBrightness(x - dx * index, y, 255 - index * 55)
+            led.plotBrightness(x - dx * index, y, 255 - index * 55 + 20)
         }
         y += 1
     }
